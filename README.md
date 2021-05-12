@@ -31,3 +31,13 @@ kubectl run <POD_NAME> --image=<DOCKER_IMAGE>
 # Aplica um yaml ou json para criação de algo no kubernetes, de form declarativa
 kubectl apply -f ./<FILE_PATH>
 ```
+
+```bash
+# Delete um pod dado o seu nome
+kubectl delete pod <POD_NAME>
+```
+
+```bash
+# Delete um pod dado um arquivo yaml ou json
+kubectl delete -f ./<FILE_PATH>
+```
