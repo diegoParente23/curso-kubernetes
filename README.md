@@ -41,3 +41,14 @@ kubectl delete pod <POD_NAME>
 # Delete um pod dado um arquivo yaml ou json
 kubectl delete -f ./<FILE_PATH>
 ```
+
+```bash
+# Mostra mais informações dos pods em execução
+kubectl get pods -o wide
+```
+
+```bash
+# Lista os serviços que estão rodando
+kubectl get services
+kubectl get svc
+```
