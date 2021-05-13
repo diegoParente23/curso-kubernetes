@@ -57,3 +57,13 @@ kubectl get svc
 # Entrar no pod desejado para executar comandos
 kubectl exec -it <POD_NAME> -- bash
 ```
+
+```bash
+# Destroi todos os pods em execução
+kubectl delete pods --all
+```
+
+```bash
+# Destroi todos os services em execução
+kubectl delete svc --all
+```
