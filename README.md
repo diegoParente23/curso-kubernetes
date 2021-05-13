@@ -52,3 +52,8 @@ kubectl get pods -o wide
 kubectl get services
 kubectl get svc
 ```
+
+```bash
+# Entrar no pod desejado para executar comandos
+kubectl exec -it <POD_NAME> -- bash
+```
